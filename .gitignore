@@ -1,0 +1,15 @@
+**/build
+.vscode
+.codelite
+.ctagsd
+**/CMakeFiles
+**/CMakeScripts
+**/[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+WxStarter
+xcode_build
+codelite
+vs
+.DS_Store

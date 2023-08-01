@@ -1,0 +1,12 @@
+#ifndef WXSTARTERAPP_H
+#define WXSTARTERAPP_H
+
+#include <wx/wx.h>
+
+class App : public wxApp
+{
+public:
+  virtual bool OnInit();
+};
+
+#endif
