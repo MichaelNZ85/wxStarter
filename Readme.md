@@ -28,7 +28,9 @@ A basic project for building wxWidgets apps.
 1. Make sure you have installed **Desktop Development with C++** for Visual Studio with the Visual Studio Installer.
 2. Double-click the `wxStarter.sln` file to open it in Visual Studio.
 3. Right click on the wxStarter project in the Solution Explorer (*not* the solution but one level down from it) and select "Properties".
+
 *The following settings should be already enabled, but if not, here's how to set them up:*  
+
 4. Go to **C/C++** an select 'General'. Make sure the Additional Include Directories include `$(WXWIN)\include` and `$(WXWIN)\include\msvc`.
 5. Go to **Linker** and select ''General'. Make sure that the SubSystem is set to `Windows (/SUBSYSTEM:WINDOWS)`.
 6. Go to **Linker** -> 'General'.
