@@ -14,6 +14,11 @@ A basic project for building wxWidgets apps.
 5. Once the build has succeeded, there should be an executable named `WxStarter` in the `build` folder. Run it and you should see a basic wxWidgets window!
 `./WxStarter`
 
+### IDE Config
+Visual Studio is recommended for Windows development (see setup guide below).
+
+For MacOS, you can use Xcode (see instructions below), VSCode, CLion or any other C++ IDE. If you want to use VSCode, you can use the example config (`c_cpp_properties.json`) as a guide for setting up include directories. Note that you will need to add any additional header and source files to the CMakeLists.txt file for Intellisense to work.
+
 ### Building for Xcode (Mac)
 1. Make a folder called `xcode_build`.
 `$ mkdir xcode_build`
